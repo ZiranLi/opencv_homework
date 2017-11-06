@@ -2,7 +2,7 @@ import cv2
 import numpy as np
 
 #Mat src
-img=cv2.imread('/Users/emanon/Downloads/OpenCV_homework/Test_images/baboon.jpg')
+img=cv2.imread('/Users/emanon/Downloads/OpenCV_homework/Test_images/Lenna.png')
 cv2.namedWindow('Original image')
 cv2.imshow('Original',img)
 b,g,r=cv2.split(img)

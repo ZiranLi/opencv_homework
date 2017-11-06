@@ -2,7 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1ff532c8-c2ec-4553-bb23-fcc4e657eb07" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/exercise2/Blue.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/exercise2/Cb.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/exercise2/Cr.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/exercise2/Green.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/exercise2/Hue.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/exercise2/Red.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/exercise2/Saturation.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/exercise2/Value.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/exercise2/Y.jpg" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/exercise2/colorImage.py" afterPath="$PROJECT_DIR$/exercise2/colorImage.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -13,7 +22,8 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/opencv_homework$noise.coverage" NAME="noise Coverage Results" MODIFIED="1509950873627" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/opencv_homework$colorImage.coverage" NAME="colorImage Coverage Results" MODIFIED="1509948960811" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/opencv_homework$colorImage__1_.coverage" NAME="colorImage (1) Coverage Results" MODIFIED="1509951555095" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/exercise2" />
+    <SUITE FILE_PATH="coverage/opencv_homework$colorImage.coverage" NAME="colorImage Coverage Results" MODIFIED="1509951531963" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/opencv_homework$printpixel.coverage" NAME="printpixel Coverage Results" MODIFIED="1509948980140" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="FileEditorManager">
@@ -33,11 +43,21 @@
       <file leaf-file-name="colorImage.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/exercise2/colorImage.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="270">
+              <caret line="18" column="20" lean-forward="false" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pixelResult.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/exercise2/pixelResult.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -60,6 +80,7 @@
         <option value="$PROJECT_DIR$/colorImage.py" />
         <option value="$PROJECT_DIR$/printpixel.py" />
         <option value="$PROJECT_DIR$/noise.py" />
+        <option value="$PROJECT_DIR$/exercise2/colorImage.py" />
       </list>
     </option>
   </component>
@@ -104,7 +125,7 @@
             <path>
               <item name="opencv_homework" type="b2602c69:ProjectViewProjectNode" />
               <item name="opencv_homework" type="462c0819:PsiDirectoryNode" />
-              <item name="exercise3" type="462c0819:PsiDirectoryNode" />
+              <item name="exercise2" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -128,7 +149,25 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.noise">
+  <component name="RunManager" selected="Python.colorImage (1)">
+    <configuration name="colorImage (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/exercise2" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="opencv_homework" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/exercise2/colorImage.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
     <configuration name="colorImage" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -183,16 +222,18 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <list size="3">
+    <list size="4">
       <item index="0" class="java.lang.String" itemvalue="Python.colorImage" />
       <item index="1" class="java.lang.String" itemvalue="Python.printpixel" />
       <item index="2" class="java.lang.String" itemvalue="Python.noise" />
+      <item index="3" class="java.lang.String" itemvalue="Python.colorImage (1)" />
     </list>
     <recent_temporary>
-      <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="Python.noise" />
-        <item index="1" class="java.lang.String" itemvalue="Python.printpixel" />
-        <item index="2" class="java.lang.String" itemvalue="Python.colorImage" />
+      <list size="4">
+        <item index="0" class="java.lang.String" itemvalue="Python.colorImage (1)" />
+        <item index="1" class="java.lang.String" itemvalue="Python.colorImage" />
+        <item index="2" class="java.lang.String" itemvalue="Python.noise" />
+        <item index="3" class="java.lang.String" itemvalue="Python.printpixel" />
       </list>
     </recent_temporary>
   </component>
@@ -211,12 +252,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="10" y="43" width="1270" height="711" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12012987" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22402598" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -260,16 +302,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/exercise2/printpixel.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/GaussianBlurfilter.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -298,10 +330,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/exercise2/colorImage.py">
+    <entry file="file://$PROJECT_DIR$/exercise2/pixelResult.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exercise2/printpixel.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exercise2/colorImage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="20" lean-forward="false" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
           </folding>
